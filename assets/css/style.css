@@ -1048,8 +1048,12 @@ footer p,a {
     }
 
     .header-label {
-        font-size: 12px;
+        font-size: 14px;
         color: white;
+    }
+
+    .header-admin a {
+        font-size: 20px;
     }
 
     .header-label:hover {
@@ -1077,7 +1081,7 @@ footer p,a {
     }
 
     .header-icon img  {
-        height: 15px;
+        height: 20px;
     }
 
     .header-icon a {
@@ -1100,6 +1104,10 @@ footer p,a {
     .banner-red-rect {
         width: 20px;
         height: 20px;
+    }
+
+    .banner-block {
+        gap: 40px;
     }
 
     .banner-btn p {
@@ -1244,25 +1252,25 @@ footer p,a {
     }
 
     .footer-block h3 {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     footer a {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     footer p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .footer-column input {
-        font-size: 10px;
+        font-size: 12px;
         padding: 12px;
         width: 100%;
     }
 
     .footer-btn {
-        font-size: 10px;
+        font-size: 12px;
         display: flex;
         justify-content: center;
         align-items: center;
