@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="header section">
+        <input type="checkbox" name="" id="burger">
+        <label class="header-label" for="burger"><i class="fa-solid fa-bars"></i> МЕНЮ</label>
+
+        <div class="header-nav-main">
+            <nav class="header-nav">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="index.html#news">Новника</a></li>
+                <li><a href="login.html">Вход</a></li>
+                <li><a href="reg.html">Регистрация</a></li>
+            </nav>
+        </div>
+        <div class="header-p">
+            <p>Rent a car</p>
+            <p>Вы авторизовались как админ!</p>
+        </div>
+        <div class="header-icon">
+            <a href="index.html">Выйти</a>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- edit start -->
+    <section class="edit section">
+        <h2>Добавление товара</h2>
+        <form class="form" action="method" name="edit">
+            <div class="form-input">
+                <input type="text" placeholder="Марка модели">
+                <input type="text" placeholder="Название модели">
+            </div>
+            <div class="form-input">
+                <input type="text" placeholder="Страна производителя">
+                <input type="text" placeholder="Цвет модели">
+            </div>
+            <div class="form-input">
+                <input type="text" placeholder="Описание модели">
+                <input type="text" placeholder="Разгон от 0-100 км/ч, с.">
+            </div>
+            <div class="form-input">
+                <input type="text" placeholder="Максимальная скорость, км/ч">
+                <input type="text" placeholder="Максимальная скорость, км/ч">
+            </div>
+            <div class="form-input">
+                <input type="text" placeholder="Фото">
+            </div>
+            <h3>Стоимость аренды</h3>
+            <div class="form-input">
+                <input type="text" placeholder="Стоимость на 1 день, ₽">
+                <input type="text" placeholder="Стоимость на 3 дня, ₽">
+                <input type="text" placeholder="Стоимость на 7 дней, ₽">
+            </div>
+            <div class="form-btn">
+                <input class="input-btn" type="submit" name="add" value="Cохранить">
+                <a class="input-btn" href="admin.html">Отмена</a>
+            </div>
+        </form>
+    </section>
+    <!-- edit end -->
+
+     <!-- footer start -->
+     <footer class="section">
+        <div class="footer-block">
+            <div class="footer-mini-block">
+                <div class="footer-column">
+                    <h3>Навигация</h3>
+                    <div class="footer-inf">
+                        <a href="index.html">Главная</a>
+                        <a href="index.html#news">Новинка</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Авторизация</h3>
+                    <div class="footer-inf">
+                        <a href="#!">Вход</a>
+                        <a href="#!">Регистрация</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-mini-block">
+                <div class="footer-column">
+                    <h3>Сервис</h3>
+                    <div class="footer-inf">
+                        <a href="#!">Пользовательское соглашение</a>
+                        <p>ООО “RentACar”</p>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Контактные данные</h3>
+                    <div class="footer-inf">
+                        <a href="tel:+79046725552">+ 7 (904) 672 55-52</a>
+                        <a href="mailto:rent.a.car@mail.ru">rent.a.car@mail.ru</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Наши соц. сети</h3>
+                <div class="footer-inf">
+                    <a href="#!">Telegram</a>
+                    <a href="#!">Vk</a>
+                    <a href="#!">Pinterest</a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-h3">Подписаться на рассылку наших актуальных акций и предложений</h3>
+                <input type="text" placeholder="E-Mail">
+                <a class="footer-btn" href="#!">Подписаться</a>
+            </div>
+        </div>
+        <p>2024© Ибрагимов Самат</p>
+        <div class="red-blur footer-1"></div>
+        <div class="blue-blur footer-2"></div>
+    </footer>
+    <!-- footer end -->
+</body>
+
+</html>
